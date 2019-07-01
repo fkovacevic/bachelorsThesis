@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: calc(100% - 51px); /* minus navbar incl. border */
+}
+
+html, #mapid {
+    height: 100%;
+}
+
+header.navbar {
+    margin-bottom: 0; /* remove bottom margin */
+}
+
+.scrollable {
+  height : 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.tableFixHead    { overflow-y: auto; height: 500px; }
+.tableFixHead th { position: sticky; top: 0; }
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#3F3F3F; }
