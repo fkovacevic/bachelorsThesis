@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "jQuery": "^1.7.4",
     "jsdom": "^15.1.0",
     "leaflet": "^1.5.1",
